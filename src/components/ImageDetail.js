@@ -16,7 +16,11 @@ const ImageDetail = (props) => {
 const styles = StyleSheet.create({
     container: {
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        borderColor: '#000',
+        borderWidth: 1,
+        margin: 5,
+        padding: 5
     }
 });
 
